@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page" id="page">
+
+    <!-- GREEN BACKGROUND -->
+    <div class="green">
+        <h1 id="title">Welcome</h1>
+    </div>
+
+    <!-- SIGN IN -->
+    <div class="card sign-in">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Sign in</button>
+        <p class="small">
+            Don’t have an account?
+            <span onclick="toggle()">Sign up here</span>
+        </p>
+    </div>
+
+    <!-- SIGN UP -->
+    <div class="card sign-up">
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Create account</button>
+        <p class="small">
+            Already have an account?
+            <span onclick="toggle()">Sign in</span>
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
